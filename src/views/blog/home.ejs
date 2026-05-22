@@ -180,6 +180,7 @@
       width: 100%;
       overflow-x: hidden;
       border-radius: 1.8rem;
+      padding: 0 3.2rem;
     }
 
     .slider-track {
@@ -304,10 +305,16 @@
     }
 
     .slider-controls-bottom {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
       display: flex;
-      justify-content: center;
-      gap: 1rem;
-      margin: 1.2rem 0 2rem;
+      justify-content: space-between;
+      align-items: center;
+      pointer-events: none;
+      z-index: 2;
     }
 
     .slider-btn-bottom {
@@ -321,6 +328,7 @@
       color: #619B4A;
       font-size: 1.1rem;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.02);
+      pointer-events: auto;
     }
 
     .slider-btn-bottom:hover {
@@ -473,6 +481,15 @@
         flex: 0 0 290px;
       }
 
+      .slider-wrapper {
+        padding: 0 2.4rem;
+      }
+
+      .slider-btn-bottom {
+        width: 40px;
+        height: 40px;
+      }
+
       .categories-tags-grid {
         grid-template-columns: 1fr;
       }
@@ -513,6 +530,10 @@
         </h2>
       </div>
       <div class="slider-wrapper">
+        <div class="slider-controls-bottom">
+          <button class="slider-btn-bottom" id="slideLeftBottom" aria-label="Geser ke kiri"><i class="fas fa-chevron-left"></i></button>
+          <button class="slider-btn-bottom" id="slideRightBottom" aria-label="Geser ke kanan"><i class="fas fa-chevron-right"></i></button>
+        </div>
         <div class="slider-track" id="sliderTrack">
           <!-- Jika terdapat data posts dari backend maka akan dirender, namun karena ini tema Kajian Islam kita isi konten default yang memperkaya semangat ilmu dengan nuansa hijau -->
           <% if (typeof posts !=='undefined' && posts && posts.length) { posts.forEach((post)=> { %>
@@ -597,12 +618,8 @@
                   <div class="meta-horizontal"><span>10 menit</span><span>🌟 680</span></div>
                 </div>
               </div>
-              <% } %>
+          <% } %>
         </div>
-      </div>
-      <div class="slider-controls-bottom">
-        <button class="slider-btn-bottom" id="slideLeftBottom"><i class="fas fa-chevron-left"></i></button>
-        <button class="slider-btn-bottom" id="slideRightBottom"><i class="fas fa-chevron-right"></i></button>
       </div>
     </div>
 
