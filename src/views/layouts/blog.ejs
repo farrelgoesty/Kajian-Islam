@@ -3,7 +3,8 @@
 
 <head>
   <% const pageMeta=typeof meta !=="undefined" && meta ? meta : {}; %>
-    <% const siteTitle=typeof appName !=="undefined" ? appName : "Kajian Islam" ; %>
+    <% const siteTitle=typeof appName !=="undefined" ? appName : "Karir & Produktivitas Muslim" ; %>
+      <% const navbarTitle="Karir & Produktivitas Muslim"; %>
       <% const year=typeof currentYear !=="undefined" ? currentYear : new Date().getFullYear(); %>
         <% const pageTitle=typeof title !=="undefined" ? title : "" ; %>
           <meta charset="utf-8" />
@@ -23,7 +24,7 @@
             rel="stylesheet" />
           <link rel="stylesheet" href="/css/app.css" />
           <meta name="description"
-            content="<%= pageMeta.description || 'Kajian Islam modern untuk pembelajaran muslim yang inspiratif dan profesional.' %>" />
+            content="<%= pageMeta.description || 'Platform karir dan produktivitas muslim modern yang inspiratif dan profesional.' %>" />
           <% if (pageMeta.robots) { %>
             <meta name="robots" content="<%= pageMeta.robots %>" />
             <% } %>
@@ -38,12 +39,12 @@
                         <% } %>
                           <meta property="og:title" content="<%= pageMeta.title || pageTitle || siteTitle %>" />
                           <meta property="og:description"
-                            content="<%= pageMeta.description || 'Kajian Islam modern untuk pembelajaran muslim yang inspiratif dan profesional.' %>" />
+                            content="<%= pageMeta.description || 'Platform karir dan produktivitas muslim modern yang inspiratif dan profesional.' %>" />
                           <meta property="og:type" content="<%= pageMeta.type || 'website' %>" />
                           <meta name="twitter:card" content="summary_large_image" />
                           <meta name="twitter:title" content="<%= pageMeta.title || pageTitle || siteTitle %>" />
                           <meta name="twitter:description"
-                            content="<%= pageMeta.description || 'Kajian Islam modern untuk pembelajaran muslim yang inspiratif dan profesional.' %>" />
+                            content="<%= pageMeta.description || 'Platform karir dan produktivitas muslim modern yang inspiratif dan profesional.' %>" />
                           <% if (pageMeta.image) { %>
                             <meta name="twitter:image" content="<%= pageMeta.image %>" />
                             <% } %>
@@ -92,23 +93,23 @@
                               <style>
                                 /* custom modern professional */
                                 body {
-                                  background: #FCF9F6;
+                                  background: #F4F9FC;
                                   font-family: 'Inter', system-ui, -apple-system, sans-serif;
                                   letter-spacing: -0.01em;
                                   -webkit-font-smoothing: antialiased;
                                 }
 
                                 .wp-shell {
-                                  background: #FCF9F6;
+                                  background: #F4F9FC;
                                 }
 
                                 /* Navbar ultra-modern glassmorphism halus */
                                 .blog-nav-shell {
-                                  background: rgba(255, 252, 248, 0.92);
+                                  background: rgba(255, 255, 255, 0.92);
                                   backdrop-filter: blur(20px);
                                   border-radius: 2rem;
-                                  border: 0.5px solid rgba(210, 190, 170, 0.3);
-                                  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.02);
+                                  border: 0.5px solid rgba(201, 226, 234, 0.9);
+                                  box-shadow: 0 8px 22px -14px rgba(25, 70, 85, 0.2);
                                   transition: all 0.3s ease;
                                 }
 
@@ -122,8 +123,8 @@
                                 }
 
                                 .blog-brand-mark {
-                                  background: linear-gradient(145deg, #0f7660, #094437);
-                                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+                                  background: linear-gradient(145deg, #176D7A, #2C7A6E);
+                                  box-shadow: 0 6px 14px rgba(23, 109, 122, 0.28);
                                   transition: transform 0.2s ease;
                                 }
 
@@ -135,7 +136,7 @@
                                   font-weight: 700;
                                   font-size: 1.25rem;
                                   letter-spacing: -0.02em;
-                                  background: linear-gradient(125deg, #0f7660, #094437);
+                                  background: linear-gradient(125deg, #176D7A, #2C7A6E);
                                   background-clip: text;
                                   -webkit-background-clip: text;
                                   color: transparent;
@@ -144,13 +145,13 @@
                                 .blog-search-card {
                                   background: white;
                                   border-radius: 2rem;
-                                  border: 1px solid #EDE3D9;
+                                  border: 1px solid #D4E9EF;
                                   transition: all 0.2s;
                                 }
 
                                 .blog-search-card:focus-within {
-                                  border-color: #0f7660;
-                                  box-shadow: 0 0 0 3px rgba(15, 118, 96, 0.08);
+                                  border-color: #176D7A;
+                                  box-shadow: 0 0 0 3px rgba(23, 109, 122, 0.1);
                                 }
 
                                 .blog-search-input {
@@ -169,7 +170,7 @@
 
                                 footer {
                                   background: #FFFFFF;
-                                  border-top: 1px solid #F0E6DE;
+                                  border-top: 1px solid #D4E9EF;
                                 }
 
                                 /* custom scrollbar */
@@ -179,12 +180,12 @@
                                 }
 
                                 ::-webkit-scrollbar-track {
-                                  background: #F1EBE4;
+                                  background: #EAF4F8;
                                   border-radius: 10px;
                                 }
 
                                 ::-webkit-scrollbar-thumb {
-                                  background: #CFBAA8;
+                                  background: #9FCAD5;
                                   border-radius: 10px;
                                 }
 
@@ -197,7 +198,7 @@
                                 /* slider track premium */
                                 .slider-track-premium {
                                   scrollbar-width: thin;
-                                  scrollbar-color: #CFBAA8 #F1EBE4;
+                                  scrollbar-color: #9FCAD5 #EAF4F8;
                                 }
 
                                 .slider-track-premium::-webkit-scrollbar {
@@ -205,12 +206,12 @@
                                 }
 
                                 .slider-track-premium::-webkit-scrollbar-track {
-                                  background: #F1EBE4;
+                                  background: #EAF4F8;
                                   border-radius: 20px;
                                 }
 
                                 .slider-track-premium::-webkit-scrollbar-thumb {
-                                  background: #CFBAA8;
+                                  background: #9FCAD5;
                                   border-radius: 20px;
                                 }
                               </style>
@@ -228,9 +229,9 @@
       <div class="flex flex-col gap-2 px-4 py-2.5 lg:flex-row lg:items-center lg:gap-5 lg:px-6">
         <a href="/" class="blog-brand-card group">
           <span
-            class="blog-brand-mark inline-flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-brand-700 text-base font-bold leading-none text-white shadow-sm transition-all duration-200 group-hover:scale-105">K</span>
+            class="blog-brand-mark inline-flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-[#176D7A] to-[#124F5E] text-base font-bold leading-none text-white shadow-sm transition-all duration-200 group-hover:scale-105">K</span>
           <span class="blog-brand-name font-semibold tracking-tight">
-            <%= siteTitle %>
+            <%= navbarTitle %>
           </span>
         </a>
 
@@ -265,14 +266,14 @@
         <div class="space-y-3">
           <div class="flex items-center gap-2.5">
             <span
-              class="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-brand-600 text-sm font-semibold text-white shadow-sm">K</span>
+              class="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-[#176D7A] to-[#124F5E] text-sm font-semibold text-white shadow-sm">K</span>
             <span class="font-serif text-lg font-semibold tracking-tight text-stone-800">
-              <%= siteTitle %>
+              <%= navbarTitle %>
             </span>
           </div>
           <p class="max-w-md text-sm leading-relaxed text-stone-500">
-            Platform kajian Islam modern untuk membaca, belajar, dan berbagi ilmu dengan tampilan yang tenang dan
-            profesional.
+            Platform karir dan produktivitas muslim modern untuk belajar, bertumbuh, dan berbagi insight dengan
+            tampilan yang tenang dan profesional.
           </p>
         </div>
         <div>

@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Kajian Islam · Majelis Ilmu & Halaqah</title>
-  <!-- Google Fonts: Elegant & Premium Typography -->
+  <meta name="description"
+    content="Platform karir dan produktivitas untuk Muslim modern. Kelola waktu, tingkatkan skill, raih berkah dalam setiap langkah profesional.">
+  <title>Karir & Produktivitas Muslim · Berkah & Excellence</title>
+  <!-- Google Fonts: Modern & Professional -->
   <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
     rel="stylesheet">
-  <!-- Font Awesome 6 -->
+  <!-- Font Awesome 6 (CDN resmi) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * {
@@ -19,9 +21,9 @@
     }
 
     body {
-      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-      background: #F5FBF4;
-      color: #1E2F1E;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: #F4F9FC;
+      color: #0A2B38;
       line-height: 1.5;
       overflow-x: hidden;
     }
@@ -32,71 +34,72 @@
       padding: 2rem 2rem 2.5rem;
     }
 
-    /* HERO SECTION KAJIAN ISLAM - NUANSA HIJAU */
+    /* ========== HERO SECTION ========== */
     .hero-luxury {
-      background: linear-gradient(135deg, #EAF5E6 0%, #F1FAEE 40%, #E2F0DC 100%);
+      background: linear-gradient(135deg, #EAF4F8 0%, #FFFFFF 40%, #E0F0F5 100%);
       border-radius: 2.8rem;
-      padding: 3.2rem 3rem 2.8rem;
+      padding: 3.5rem 3rem;
       margin-bottom: 3rem;
       position: relative;
       overflow: hidden;
-      border: 1px solid #CBE0C2;
-      box-shadow: 0 22px 40px -14px rgba(40, 60, 35, 0.1);
+      border: 1px solid #C9E2EA;
+      box-shadow: 0 24px 44px -18px rgba(25, 70, 85, 0.12);
       text-align: center;
     }
 
     .hero-luxury::before {
       content: "﷽";
-      font-size: 240px;
+      font-size: 260px;
       font-family: serif;
       position: absolute;
       bottom: -50px;
       left: -20px;
       opacity: 0.04;
-      color: #5B8C4E;
+      color: #2C7A6E;
       pointer-events: none;
     }
 
     .hero-luxury::after {
-      content: "۞";
-      font-size: 210px;
+      content: "★";
+      font-size: 200px;
       position: absolute;
-      top: -40px;
-      right: 10px;
+      top: -30px;
+      right: 0px;
       opacity: 0.045;
+      color: #D9A13B;
+      transform: rotate(12deg);
       pointer-events: none;
-      color: #6A9C5D;
     }
 
     .hero-badge {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
-      background: rgba(255, 255, 245, 0.9);
+      gap: 12px;
+      background: rgba(255, 255, 250, 0.95);
       backdrop-filter: blur(8px);
-      padding: 0.45rem 1.8rem;
+      padding: 0.45rem 2rem;
       border-radius: 60px;
       font-size: 0.7rem;
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: 0.2em;
-      color: #3D6B2E;
+      color: #2C7A6E;
       margin-bottom: 1.2rem;
-      border: 0.5px solid #D0E2C5;
+      border: 0.5px solid #C0DFE8;
     }
 
     .hero-title {
       font-family: 'Cormorant Garamond', serif;
       font-size: 4rem;
       font-weight: 700;
-      letter-spacing: -0.02em;
+      letter-spacing: -0.01em;
       line-height: 1.2;
       max-width: 85%;
       margin: 0 auto;
-      color: #2A4522;
+      color: #124F5E;
     }
 
     .hero-title span {
-      background: linear-gradient(125deg, #528A41, #3D6B2E);
+      background: linear-gradient(125deg, #E6B422, #C9921F);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
@@ -105,59 +108,61 @@
     .hero-desc {
       margin-top: 1rem;
       font-size: 1.05rem;
-      color: #4E6E40;
+      color: #3B6F7A;
       max-width: 68%;
       margin-left: auto;
       margin-right: auto;
     }
 
-    /* Pilar Kajian Islam - Hijau */
+    /* ========== PILAR UTAMA ========== */
     .value-pillars {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
       gap: 2rem;
       margin-bottom: 3rem;
     }
 
     .pillar-card {
-      background: #FFFFFFF0;
-      backdrop-filter: blur(2px);
+      background: rgba(255, 255, 255, 0.96);
       border-radius: 2rem;
-      padding: 1.8rem 1.2rem;
+      padding: 2rem 1.4rem;
       text-align: center;
-      border: 1px solid #DAEACF;
-      transition: all 0.3s ease;
-      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.02);
+      border: 1px solid #D4E9EF;
+      transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.02);
     }
 
     .pillar-card:hover {
-      transform: translateY(-5px);
-      border-color: #B7D6A8;
+      transform: translateY(-8px);
+      border-color: #B8D8E1;
       background: #FFFFFF;
+      box-shadow: 0 18px 32px -12px rgba(30, 100, 100, 0.12);
     }
 
     .pillar-card i {
-      font-size: 2.2rem;
-      color: #619B4A;
-      margin-bottom: 0.9rem;
+      font-size: 2.5rem;
+      color: #D9A13B;
+      margin-bottom: 1rem;
+      display: inline-block;
     }
 
     .pillar-card h4 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.3rem;
-      font-weight: 600;
-      color: #3C5C30;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #176D7A;
+      margin-bottom: 0.5rem;
     }
 
     .pillar-card p {
       font-size: 0.85rem;
-      color: #658A53;
-      margin-top: 0.5rem;
+      color: #58818C;
+      line-height: 1.5;
     }
 
-    /* SLIDER ARTIKEL KAJIAN & KITAB */
+    /* ========== SLIDER ARTIKEL ========== */
     .slider-section {
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
 
     .section-header {
@@ -165,14 +170,22 @@
       justify-content: space-between;
       align-items: baseline;
       flex-wrap: wrap;
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.5rem;
     }
 
     .section-header h2 {
       font-family: 'Cormorant Garamond', serif;
       font-size: 2rem;
-      font-weight: 600;
-      color: #3C5C30;
+      font-weight: 700;
+      color: #176D7A;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .section-header h2 i {
+      color: #D9A13B;
+      font-size: 1.8rem;
     }
 
     .slider-wrapper {
@@ -191,6 +204,7 @@
       scrollbar-width: thin;
       padding-bottom: 1rem;
       cursor: grab;
+      scroll-snap-type: x mandatory;
     }
 
     .slider-track::-webkit-scrollbar {
@@ -198,12 +212,12 @@
     }
 
     .slider-track::-webkit-scrollbar-track {
-      background: #E2F0DC;
+      background: #D4E9EF;
       border-radius: 12px;
     }
 
     .slider-track::-webkit-scrollbar-thumb {
-      background: #AACD9A;
+      background: #B0D1D9;
       border-radius: 12px;
     }
 
@@ -212,23 +226,27 @@
       background: #FFFFFF;
       border-radius: 2rem;
       overflow: hidden;
-      transition: all 0.35s cubic-bezier(0.2, 0, 0, 1);
-      border: 1px solid #DAEACF;
-      box-shadow: 0 16px 28px -12px rgba(45, 70, 40, 0.08);
+      transition: all 0.35s ease;
+      border: 1px solid #D4E9EF;
+      box-shadow: 0 16px 28px -12px rgba(30, 80, 80, 0.08);
       display: flex;
       flex-direction: column;
+      scroll-snap-align: start;
     }
 
     .post-card-horizontal:hover {
       transform: translateY(-8px);
-      box-shadow: 0 28px 38px -14px rgba(55, 85, 45, 0.2);
-      border-color: #C0DEB0;
+      box-shadow: 0 28px 38px -14px rgba(30, 90, 90, 0.2);
+      border-color: #BBDDE6;
     }
 
     .card-img {
       aspect-ratio: 16/9;
-      background: #DFEED5;
+      background: #E2F0F2;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .card-img img {
@@ -242,6 +260,11 @@
       transform: scale(1.04);
     }
 
+    .card-img i {
+      font-size: 3rem;
+      color: #2C7A6E;
+    }
+
     .card-body {
       padding: 1.4rem 1.4rem 1.6rem;
       flex: 1;
@@ -253,38 +276,36 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      background: #F0F8EB;
-      padding: 0.2rem 1rem;
+      background: #F0F8FA;
+      padding: 0.25rem 1rem;
       border-radius: 30px;
       font-size: 0.65rem;
       font-weight: 700;
-      letter-spacing: 0.2px;
-      color: #558B41;
+      color: #2C7A6E;
       width: fit-content;
     }
 
     .card-title {
       font-size: 1.25rem;
       font-weight: 700;
-      font-family: 'Cormorant Garamond', serif;
       line-height: 1.35;
       margin: 0.7rem 0 0.5rem;
     }
 
     .card-title a {
       text-decoration: none;
-      color: #3C5C30;
+      color: #124F5E;
       transition: color 0.2s;
     }
 
     .card-title a:hover {
-      color: #6A9C5D;
+      color: #D9A13B;
     }
 
     .excerpt-sm {
       font-size: 0.8rem;
       line-height: 1.5;
-      color: #6C8A5A;
+      color: #6C8F99;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       line-clamp: 2;
@@ -298,10 +319,14 @@
       justify-content: space-between;
       font-size: 0.7rem;
       font-weight: 500;
-      color: #8CAC7A;
-      border-top: 1px solid #E2F0DC;
+      color: #8CACB5;
+      border-top: 1px solid #E2F0F2;
       padding-top: 0.8rem;
       margin-top: auto;
+    }
+
+    .meta-horizontal i {
+      margin-right: 4px;
     }
 
     .slider-controls-bottom {
@@ -319,25 +344,28 @@
 
     .slider-btn-bottom {
       background: #FFFFFF;
-      border: 1px solid #CDE2C0;
+      border: 1px solid #C9E2EA;
       width: 46px;
       height: 46px;
       border-radius: 50%;
       cursor: pointer;
       transition: all 0.2s;
-      color: #619B4A;
+      color: #2C7A6E;
       font-size: 1.1rem;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.02);
       pointer-events: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .slider-btn-bottom:hover {
-      background: #F0F8EB;
-      border-color: #B2D6A2;
+      background: #F0F8FA;
+      border-color: #AACFD9;
       transform: scale(1.03);
     }
 
-    /* KATEGORI KAJIAN & TAGS FIQIH/TAFSIR - Hijau */
+    /* ========== KATEGORI & TAGS ========== */
     .categories-tags-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -349,7 +377,7 @@
       background: #FFFFFF;
       border-radius: 2rem;
       padding: 1.8rem;
-      border: 1px solid #DAEACF;
+      border: 1px solid #D4E9EF;
       transition: all 0.2s;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.02);
     }
@@ -357,14 +385,18 @@
     .premium-card h3 {
       font-family: 'Cormorant Garamond', serif;
       font-size: 1.5rem;
-      font-weight: 600;
-      color: #3C5C30;
+      font-weight: 700;
+      color: #176D7A;
       margin-bottom: 1.2rem;
       display: flex;
       align-items: center;
       gap: 10px;
-      border-bottom: 2px solid #E2F0DC;
+      border-bottom: 2px solid #E2F0F2;
       padding-bottom: 0.6rem;
+    }
+
+    .premium-card h3 i {
+      color: #D9A13B;
     }
 
     .tag-group,
@@ -375,37 +407,58 @@
     }
 
     .pill-link {
-      background: #F8FEF5;
+      background: #F8FDFF;
       padding: 0.5rem 1.2rem;
       border-radius: 3rem;
       font-size: 0.75rem;
       font-weight: 500;
       text-decoration: none;
-      color: #5C8A48;
+      color: #2C7A6E;
       transition: all 0.2s;
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      border: 0.5px solid #D0E2C5;
+      border: 0.5px solid #C9E2EA;
     }
 
     .pill-link:hover {
-      background: #EFFAE8;
-      color: #3D6B2E;
+      background: #EFF7FA;
+      color: #D9A13B;
       transform: translateY(-2px);
     }
 
-    /* Daily Hadits */
+    /* ========== QUOTE HARIAN ========== */
     .daily-quote {
-      background: #F8FEF5;
+      background: #F8FDFF;
       border-radius: 2rem;
       padding: 2rem;
       margin: 2rem 0 0;
       text-align: center;
-      border: 1px solid #D0E2C5;
+      border: 1px solid #D4E9EF;
     }
 
-    /* Pagination Modern */
+    .daily-quote-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 600;
+      line-height: 1.55;
+      letter-spacing: 0.01em;
+      color: #124F5E;
+      max-width: 80%;
+      margin: 0.8rem auto;
+      text-wrap: balance;
+    }
+
+    .daily-quote-note {
+      margin-top: 0.6rem;
+      font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #2C7A6E;
+    }
+
+    /* ========== PAGINATION ========== */
     .pagination-modern {
       display: flex;
       justify-content: center;
@@ -428,44 +481,185 @@
       font-weight: 500;
       text-decoration: none;
       background: #FFFFFF;
-      color: #5C8A48;
-      border: 1px solid #DAEACF;
+      color: #2C7A6E;
+      border: 1px solid #D4E9EF;
     }
 
     .pagination-modern .active-page {
-      background: #B7D6A8;
-      color: #2A4522;
-      border-color: #9BCC88;
+      background: #D9A13B;
+      color: #FFFFFF;
+      border-color: #C9921F;
     }
 
-    /* Footer sederhana (nuansa islami hijau) */
+    /* ========== TIPS GRID ========== */
+    .tips-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.8rem;
+      margin: 2.5rem 0;
+    }
+
+    .tip-card {
+      background: #FFFFFF;
+      border-radius: 1.8rem;
+      padding: 1.5rem;
+      border: 1px solid #D4E9EF;
+      transition: transform 0.2s;
+    }
+
+    .tip-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .tip-card i {
+      font-size: 1.8rem;
+      color: #D9A13B;
+      margin-bottom: 0.8rem;
+      display: block;
+    }
+
+    .tip-card h3 {
+      margin: 0.6rem 0 0.2rem;
+      font-weight: 700;
+      color: #176D7A;
+    }
+
+    .tip-card p {
+      font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      line-height: 1.6;
+      color: #2A6270;
+    }
+
+    /* ========== BUKU & CHALLENGE ========== */
+    .books-section {
+      background: #EAF4F8;
+      border-radius: 1.8rem;
+      padding: 1.8rem;
+      margin: 1rem 0 1.5rem;
+    }
+
+    .challenge-section {
+      background: #FFFFFF;
+      border-radius: 1.8rem;
+      padding: 1.8rem;
+      margin: 1.5rem 0;
+      border: 1px solid #C9E2EA;
+    }
+
+    .challenge-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 1rem;
+    }
+
+    .challenge-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      background: linear-gradient(135deg, #F5FBFF 0%, #ECF7FB 100%);
+      border: 1px solid #D6EAF1;
+      border-radius: 0.9rem;
+      padding: 0.75rem 0.85rem;
+      color: #185A69;
+      font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      line-height: 1.45;
+      box-shadow: 0 6px 14px -10px rgba(17, 86, 102, 0.45);
+    }
+
+    .challenge-item i {
+      color: #2C7A6E;
+      margin-top: 2px;
+      font-size: 0.95rem;
+      flex: 0 0 auto;
+    }
+
+    .books-list .pill-link {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      color: #185A69;
+      background: linear-gradient(135deg, #F7FCFF 0%, #EEF7FB 100%);
+      border: 1px solid #D6EAF1;
+      box-shadow: 0 8px 16px -14px rgba(18, 79, 94, 0.45);
+    }
+
+    .books-list .pill-link:hover {
+      color: #124F5E;
+      background: linear-gradient(135deg, #ECF7FB 0%, #E1F1F7 100%);
+      border-color: #BFDCE7;
+    }
+
+    .habits-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .habit-card {
+      text-align: center;
+      background: #F8FDFF;
+      border-radius: 1.5rem;
+      padding: 1rem;
+      transition: transform 0.2s;
+    }
+
+    .habit-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .habit-card i {
+      font-size: 2rem;
+      color: #D9A13B;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .habit-card h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.25rem;
+      color: #176D7A;
+    }
+
+    .habit-card p {
+      font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      color: #58818C;
+    }
+
+    /* ========== FOOTER ========== */
     .footer-simple {
       margin-top: 3rem;
-      background: #F8FEF5;
+      background: #F8FDFF;
       border-radius: 2rem;
       padding: 1.8rem;
       text-align: center;
-      border: 1px solid #DAEACF;
-      color: #6C9A58;
+      border: 1px solid #D4E9EF;
+      color: #58818C;
       font-size: 0.8rem;
     }
 
-    .footer-simple i {
-      margin: 0 6px;
-    }
-
-    .jadwal-badge {
-      background: #F0F8EB;
-      border-radius: 1rem;
-      padding: 0.5rem 1.2rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-    }
-
+    /* ========== RESPONSIVE ========== */
     @media (max-width: 880px) {
       .home-container {
         padding: 1rem;
+      }
+
+      .hero-luxury {
+        padding: 2rem 1.5rem;
       }
 
       .hero-title {
@@ -482,16 +676,31 @@
       }
 
       .slider-wrapper {
-        padding: 0 2.4rem;
+        padding: 0 2rem;
       }
 
       .slider-btn-bottom {
-        width: 40px;
-        height: 40px;
+        width: 38px;
+        height: 38px;
       }
 
       .categories-tags-grid {
         grid-template-columns: 1fr;
+      }
+
+      .habits-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .habits-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-badge {
+        font-size: 0.6rem;
+        letter-spacing: 0.1em;
       }
     }
   </style>
@@ -499,267 +708,241 @@
 
 <body>
   <div class="home-container">
-    <!-- HERO SECTION KAJIAN ISLAM (nuansa hijau yang teduh) -->
+
+    <!-- HERO PREMIUM -->
     <div class="hero-luxury">
-      <div class="hero-badge"><i class="fas fa-mosque"></i> MAJELIS ILMU · KAJIAN ISLAM & HALAQAH</div>
-      <h1 class="hero-title">Menuntut ilmu adalah <span>ibadah utama</span> bagi setiap muslim</h1>
-      <p class="hero-desc">Ruang kajian yang menghidupkan sunnah, menyatukan ukhuwah, dan memperdalam pemahaman agama
-        dengan rujukan terpercaya.</p>
+      <div class="hero-badge"><i class="fas fa-chart-line"></i> KARIR & PRODUKTIVITAS MUSLIM</div>
+      <h1 class="hero-title">Bangun karir <span>berkah & excellence</span> dengan prinsip islami</h1>
+      <p class="hero-desc">Integrasi antara profesionalisme duniawi dan nilai-nilai spiritual. Kelola waktu, maksimalkan
+        potensi, raih kesuksesan ukhrawi.</p>
     </div>
 
-    <!-- Pilar Kajian Islami yang lebih mendalam (warna hijau) -->
+    <!-- Pilar Utama -->
     <div class="value-pillars">
-      <div class="pillar-card"><i class="fas fa-book-open"></i>
-        <h4>Kitab & Tafsir</h4>
-        <p>Mempelajari Al-Qur’an, Tafsir Jalalain, dan kitab kuning klasik</p>
+      <div class="pillar-card"><i class="fas fa-chalkboard-user"></i>
+        <h4>Career With Itqan</h4>
+        <p>Melakukan pekerjaan dengan profesional, tepat, dan penuh ketulusan sebagai bentuk ibadah.</p>
       </div>
-      <div class="pillar-card"><i class="fas fa-mosque"></i>
-        <h4>Teman Hijrah Muslim</h4>
-        <p>Kajian rutin untuk menambah wawasan Islam dan memperbaiki diri</p>
+      <div class="pillar-card"><i class="fas fa-clock"></i>
+        <h4>Time Management Sunnah</h4>
+        <p>Manajemen waktu ala generasi salaf: fokus, barokah, dan meninggalkan hal yang tidak bermanfaat.</p>
       </div>
       <div class="pillar-card"><i class="fas fa-hand-holding-heart"></i>
-        <h4>Adab & Akhlaq</h4>
-        <p>Menghidupkan akhlak mulia sesuai tuntunan Rasulullah ﷺ</p>
+        <h4>Financial Barakah</h4>
+        <p>Prinsip halal, sederhana, bersedekah, dan menjauhi riba untuk rezeki yang melimpah.</p>
       </div>
     </div>
 
-    <!-- SLIDER ARTIKEL KAJIAN (tema fiqih, tauhid, sirah) -->
+    <!-- SLIDER ARTIKEL -->
     <div class="slider-section">
       <div class="section-header">
-        <h2><i class="fas fa-landmark" style="color:#619B4A; margin-right: 0.6rem;"></i> Kajian & Artikel Islam Pilihan
-        </h2>
+        <h2><i class="fas fa-newspaper"></i> Artikel Pilihan Karir & Produktivitas</h2>
       </div>
       <div class="slider-wrapper">
         <div class="slider-controls-bottom">
-          <button class="slider-btn-bottom" id="slideLeftBottom" aria-label="Geser ke kiri"><i class="fas fa-chevron-left"></i></button>
-          <button class="slider-btn-bottom" id="slideRightBottom" aria-label="Geser ke kanan"><i class="fas fa-chevron-right"></i></button>
+          <button class="slider-btn-bottom" id="slideLeftBottom" aria-label="Previous"><i
+              class="fas fa-chevron-left"></i></button>
+          <button class="slider-btn-bottom" id="slideRightBottom" aria-label="Next"><i
+              class="fas fa-chevron-right"></i></button>
         </div>
         <div class="slider-track" id="sliderTrack">
-          <!-- Jika terdapat data posts dari backend maka akan dirender, namun karena ini tema Kajian Islam kita isi konten default yang memperkaya semangat ilmu dengan nuansa hijau -->
           <% if (typeof posts !=='undefined' && posts && posts.length) { posts.forEach((post)=> { %>
             <div class="post-card-horizontal">
               <div class="card-img">
-                <% if (post.featuredImage) { %>
-                  <img src="<%= post.featuredImage %>" alt="<%= post.title %>" loading="lazy" />
+                <% if (post.featuredImage) { %><img src="<%= post.featuredImage %>" alt="<%= post.title %>"
+                    loading="lazy">
                   <% } else { %>
-                    <div
-                      style="background: #D9EBD0; height:100%; display: flex; align-items: center; justify-content: center; color:#6A9C5D;">
-                      <i class="fas fa-quran fa-2x"></i>
-                    </div>
+                    <i class="fas fa-briefcase"></i>
                     <% } %>
               </div>
               <div class="card-body">
                 <span class="category-chip"><i class="fas fa-tag"></i>
-                  <%= post.status ? post.status.toUpperCase() : 'Kajian' %>
+                  <%= post.postCategories && post.postCategories.length ? post.postCategories[0].category.name : (post.postTags && post.postTags.length ? post.postTags[0].tag.name : 'Karir') %>
                 </span>
-                <h3 class="card-title"><a href="/posts/<%= post.slug %>" target="_blank" rel="noopener noreferrer">
+                <h3 class="card-title"><a href="/posts/<%= post.slug %>">
                     <%= post.title %>
                   </a></h3>
                 <p class="excerpt-sm">
-                  <%= post.subheadline || post.excerpt || (post.content ? post.content.replace(/<[^>]*>/g, '').slice(0,
-                    100) : 'Kajian mendalam seputar aqidah, fiqih kontemporer, dan adab sehari-hari') %>
+                  <%= post.excerpt ? post.excerpt.slice(0,110)
+                    : 'Tingkatkan produktivitas dan keberkahan karirmu dengan langkah strategis.' %>
                 </p>
                 <div class="meta-horizontal"><span><i class="far fa-clock"></i>
-                    <%= post.readingTime || '5' %> menit
+                    <%= post.readingTime || 5 %> menit
                   </span><span><i class="fas fa-eye"></i>
                     <%= post.viewCount || 0 %> views
                   </span></div>
               </div>
             </div>
             <% }) } else { %>
-              <!-- Konten default kajian islami yang lebih mendalam (dengan nuansa hijau) -->
               <div class="post-card-horizontal">
-                <div class="card-img">
-                  <div
-                    style="background:#E2F0DC; height:100%; display:flex; align-items:center; justify-content:center;">
-                    <i class="fas fa-mosque fa-3x" style="color:#619B4A;"></i></div>
-                </div>
-                <div class="card-body"><span class="category-chip"><i class="fas fa-star-of-life"></i> TAUHID</span>
-                  <h3 class="card-title"><a href="#">Penjelasan Kitab Tauhid Syeikh Muhammad bin Abdul Wahhab</a></h3>
-                  <p class="excerpt-sm">Mengikis syirik, memperkuat keikhlasan, dan makna Laa ilaaha illallah secara
-                    mendalam.</p>
-                  <div class="meta-horizontal"><span>8 menit</span><span>📖 316</span></div>
+                <div class="card-img"><i class="fas fa-pen-fancy"></i></div>
+                <div class="card-body"><span class="category-chip">Inspirasi</span>
+                  <h3 class="card-title"><a href="javascript:void(0)">Belum ada artikel dipublikasikan</a></h3>
+                  <p class="excerpt-sm">Post terbaru akan muncul otomatis di sini setelah statusnya diubah ke
+                    <strong>PUBLISHED</strong> pada dashboard admin.</p>
+                  <div class="meta-horizontal"><span><i class="fas fa-circle-info"></i> Menunggu publikasi</span><span><i
+                        class="fas fa-file-lines"></i> 0 post</span></div>
                 </div>
               </div>
-              <div class="post-card-horizontal">
-                <div class="card-img">
-                  <div
-                    style="background:#E2F0DC; height:100%; display:flex; align-items:center; justify-content:center;">
-                    <i class="fas fa-book-atlas fa-3x" style="color:#619B4A;"></i></div>
-                </div>
-                <div class="card-body"><span class="category-chip">FIQIH WANITA</span>
-                  <h3 class="card-title"><a href="#">Haid, Nifas, dan Panduan Thaharah Lengkap</a></h3>
-                  <p class="excerpt-sm">Pembahasan berdasarkan madzhab Syafi'i, rujukan para ulama kontemporer.</p>
-                  <div class="meta-horizontal"><span>6 menit</span><span>🕌 528</span></div>
-                </div>
-              </div>
-              <div class="post-card-horizontal">
-                <div class="card-img">
-                  <div
-                    style="background:#E2F0DC; height:100%; display:flex; align-items:center; justify-content:center;">
-                    <i class="fas fa-hand-sparkles fa-3x" style="color:#619B4A;"></i></div>
-                </div>
-                <div class="card-body"><span class="category-chip">ADAB & DOA</span>
-                  <h3 class="card-title"><a href="#">Adab Menuntut Ilmu Menurut Imam Al-Ghazali</a></h3>
-                  <p class="excerpt-sm">Menghormati guru, menjaga niat, dan metode menggapai keberkahan ilmu.</p>
-                  <div class="meta-horizontal"><span>5 menit</span><span>⭐ 437</span></div>
-                </div>
-              </div>
-              <div class="post-card-horizontal">
-                <div class="card-img">
-                  <div
-                    style="background:#E2F0DC; height:100%; display:flex; align-items:center; justify-content:center;">
-                    <i class="fas fa-people-arrows fa-3x" style="color:#619B4A;"></i></div>
-                </div>
-                <div class="card-body"><span class="category-chip">SIRAH NABAWIYAH</span>
-                  <h3 class="card-title"><a href="#">Peristiwa Isra' Mi'raj: Hikmah dan Pelajaran</a></h3>
-                  <p class="excerpt-sm">Perjalanan agung Rasulullah ﷺ, perintah shalat lima waktu, bukti kekuasaan
-                    Allah.</p>
-                  <div class="meta-horizontal"><span>10 menit</span><span>🌟 680</span></div>
-                </div>
-              </div>
-          <% } %>
+              <% } %>
         </div>
       </div>
     </div>
 
-    <!-- PAGINATION (jika backend ada) -->
+    <!-- PAGINATION (dinamis) -->
     <% if (typeof pagination !=='undefined' && pagination && pagination.totalPages> 1) { %>
       <div class="pagination-modern">
         <% if (pagination.hasPrev) { %><a href="?page=<%= pagination.prevPage %>"><i class="fas fa-chevron-left"></i>
-            Sebelumnya</a>
-          <% } else { %><span><i class="fas fa-chevron-left"></i> Sebelumnya</span>
+            Prev</a>
+          <% } else { %><span><i class="fas fa-chevron-left"></i> Prev</span>
             <% } %>
-              <% let startPage=Math.max(1, pagination.currentPage - 2); let endPage=Math.min(pagination.totalPages,
-                pagination.currentPage + 2); if (endPage - startPage < 4) { if (startPage> 1) startPage = Math.max(1,
-                endPage - 4); if (endPage < pagination.totalPages) endPage=Math.min(pagination.totalPages, startPage +
-                  4); } for (let p=startPage; p <=endPage; p++) { %>
-                  <% if (p===pagination.currentPage) { %><span class="active-page">
-                      <%= p %>
-                    </span>
-                    <% } else { %><a href="?page=<%= p %>">
-                        <%= p %>
-                      </a>
-                      <% } %>
+              <% for (let p=Math.max(1, pagination.currentPage-2); p <=Math.min(pagination.totalPages,
+                pagination.currentPage+2); p++) { if (p===pagination.currentPage) { %><span class="active-page">
+                  <%= p %>
+                </span>
+                <% } else { %><a href="?page=<%= p %>">
+                    <%= p %>
+                  </a>
+                  <% } } %>
+                    <% if (pagination.hasNext) { %><a href="?page=<%= pagination.nextPage %>">Next <i
+                          class="fas fa-chevron-right"></i></a>
+                      <% } else { %><span>Next <i class="fas fa-chevron-right"></i></span>
                         <% } %>
-                          <% if (pagination.hasNext) { %><a href="?page=<%= pagination.nextPage %>">Selanjutnya <i
-                                class="fas fa-chevron-right"></i></a>
-                            <% } else { %><span>Selanjutnya <i class="fas fa-chevron-right"></i></span>
-                              <% } %>
       </div>
       <% } %>
 
-        <!-- KATEGORI KAJIAN & TAGS ISLAMI (Uqud, Tafsir, dll) -->
+        <!-- KATEGORI & TAGS -->
         <div class="categories-tags-grid">
           <div class="premium-card">
-            <h3><i class="fas fa-folder-open" style="color:#619B4A;"></i> Rumpun Ilmu Islam</h3>
+            <h3><i class="fas fa-layer-group"></i> Topik Karir Islami</h3>
             <div class="category-group">
-              <% if (typeof categories !=='undefined' && categories && categories.length) {
-                categories.forEach((category)=> { %>
-                <a href="/categories/<%= category.slug %>" class="pill-link"><i class="fas fa-tag"></i>
-                  <%= category.name %>
+              <% if (typeof categories !=='undefined' && categories && categories.length) { categories.forEach((cat)=> {
+                %><a href="/category/<%= cat.slug %>" class="pill-link"><i class="fas fa-folder"></i>
+                  <%= cat.name %>
                 </a>
-                <% }) } else { %>
-                  <a href="#" class="pill-link"><i class="fas fa-quran"></i> Tafsir Al-Qur'an</a>
-                  <a href="#" class="pill-link"><i class="fas fa-book"></i> Hadits Arbain</a>
-                  <a href="#" class="pill-link"><i class="fas fa-balance-scale"></i> Fiqih Muamalah</a>
-                  <a href="#" class="pill-link"><i class="fas fa-heart"></i> Tasawuf & Tazkiyah</a>
-                  <a href="#" class="pill-link"><i class="fas fa-history"></i> Sirah Nabawiyah</a>
-                  <a href="#" class="pill-link"><i class="fas fa-language"></i> Nahwu Sharaf</a>
+                <% }) } else { %><a href="#" class="pill-link"><i class="fas fa-bullhorn"></i> Leadership & Akhlak</a><a
+                    href="#" class="pill-link"><i class="fas fa-laptop"></i> Remote Working Islami</a><a href="#"
+                    class="pill-link"><i class="fas fa-store"></i> Wirausaha Berkah</a><a href="#" class="pill-link"><i
+                      class="fas fa-user-tie"></i> Personal Branding Muslim</a>
                   <% } %>
             </div>
           </div>
           <div class="premium-card">
-            <h3><i class="fas fa-hashtag" style="color:#619B4A;"></i> Tags Populer Kajian</h3>
+            <h3><i class="fas fa-tags"></i> Tag Produktivitas</h3>
             <div class="tag-group">
-              <% if (typeof tags !=='undefined' && tags && tags.length) { tags.forEach((tag)=> { %>
-                <a href="/tags/<%= tag.slug %>" class="pill-link">#<%= tag.name %></a>
-                <% }) } else { %>
-                  <span class="pill-link">#TafsirIbnuKatsir</span>
-                  <span class="pill-link">#BimbinganIslam</span>
-                  <span class="pill-link">#HaditsShahih</span>
-                  <span class="pill-link">#FiqihShalat</span>
-                  <span class="pill-link">#HalaqahOnline</span>
-                  <span class="pill-link">#ManhajSalaf</span>
-                  <span class="pill-link">#UstadzTerpercaya</span>
-                  <span class="pill-link">#DakwahDigital</span>
-                  <span class="pill-link">#KajianKitabKuning</span>
+              <% if (typeof tags !=='undefined' && tags && tags.length) { tags.forEach((tag)=> { %><a
+                  href="/tag/<%= tag.slug %>" class="pill-link">#<%= tag.name %></a>
+                <% }) } else { %><span class="pill-link">#MorningRoutine</span><span
+                    class="pill-link">#DeepWork</span><span class="pill-link">#FinancialLiteracy</span><span
+                    class="pill-link">#PublicSpeakingMuslim</span><span class="pill-link">#MindsetBerkah</span><span
+                    class="pill-link">#TimeManagement</span><span class="pill-link">#GoalSetting</span>
                   <% } %>
             </div>
           </div>
         </div>
 
-        <!-- HADITS PILIHAN & MOTIVASI ILMU (daily hadits) -->
+        <!-- HADITS PRODUKTIVITAS -->
         <div class="daily-quote">
-          <i class="fas fa-quote-left" style="font-size: 2rem; color:#82B36C;"></i>
-          <p
-            style="font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; max-width: 80%; margin: 0.8rem auto; color:#3C5C30;">
-            “Barangsiapa yang menempuh suatu jalan untuk menuntut ilmu, maka Allah akan memudahkan baginya jalan menuju
-            surga.” (HR. Muslim)
-          </p>
-          <div style="margin-top: 0.5rem; font-size: 0.75rem; color:#7CA567;"><i class="fas fa-seedling"></i> Majelis
-            ilmu adalah taman surga, teruslah berhijrah dalam kebaikan</div>
+          <i class="fas fa-quote-right" style="font-size: 2rem; color: #D9A13B;"></i>
+          <p class="daily-quote-text">
+            “Sesungguhnya Allah mencintai seorang hamba yang profesional (itqan) ketika dia melakukan suatu pekerjaan.”
+            (HR. Thabrani)</p>
+          <div class="daily-quote-note"><i class="fas fa-calendar-week"></i>
+            Jadikan setiap produktivitas sebagai bentuk ketaatan</div>
         </div>
 
-        <!-- BLOK INFORMASI KAJIAN RUTIN & JADWAL (memperkaya konten islami) -->
-        <div
-          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:1.5rem; margin: 2rem 0 1rem;">
-          <div style="background: #F8FEF5; border-radius: 1.5rem; padding: 1.2rem; text-align: center;">
-            <i class="fas fa-lightbulb" style="color:#82B36C; font-size: 1.6rem;"></i>
-            <h4 style="margin: 0.6rem 0; font-family: 'Cormorant Garamond'; color:#4A7840;">Cahaya Ilmu Sehari-hari</h4>
-            <p style="font-size:0.85rem;">Menjadikan ilmu agama sebagai cahaya dalam kehidupan sehari-hari</p>
-          </div>
-          <div style="background: #F8FEF5; border-radius: 1.5rem; padding: 1.2rem; text-align: center;">
-            <i class="fas fa-book-open" style="color:#82B36C; font-size: 1.6rem;"></i>
-            <h4 style="margin: 0.6rem 0; font-family: 'Cormorant Garamond'; color:#4A7840;">Belajar Agama yang Hangat</h4>
-            <p style="font-size:0.85rem;">Belajar agama dengan suasana hangat dan penuh kebermanfaatan</p>
-          </div>
-          <div style="background: #F8FEF5; border-radius: 1.5rem; padding: 1.2rem; text-align: center;">
-            <i class="fas fa-laptop" style="color:#82B36C; font-size: 1.6rem;"></i>
-            <h4 style="margin: 0.6rem 0; font-family: 'Cormorant Garamond'; color:#4A7840;">Majelis Ilmu Daring</h4>
-            <p style="font-size:0.85rem;">Majelis ilmu daring dengan materi Islam yang ringan, bermanfaat, dan mudah dipahami.
+        <!-- TIPS & STRATEGI KARIR -->
+        <div class="tips-grid">
+          <div class="tip-card"><i class="fas fa-rocket"></i>
+            <h3>Metode 5+1 Jam Emas</h3>
+            <p>Bangun subuh, olahraga ringan, baca Al-Ma'tsurat, planning prioritas, dan satu jam belajar skill baru.
             </p>
           </div>
-        </div>
-
-        <!-- REKOMENDASI KITAB DAN REFERENSI UTAMA (warna hijau) -->
-        <div style="background: #F0F8EB; border-radius: 1.8rem; padding: 1.5rem; margin: 1rem 0 1.5rem;">
-          <h3 style="font-family: 'Cormorant Garamond'; font-size: 1.5rem; color:#3C5C30; display: flex; gap: 0.8rem;">
-            <i class="fas fa-book-quran"></i> Rekomendasi Kitab Kajian Utama</h3>
-          <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.8rem;">
-            <span class="pill-link"><i class="fas fa-check-circle"></i> Fathul Bari (Syarh Shahih Bukhari)</span>
-            <span class="pill-link"><i class="fas fa-check-circle"></i> Tafsir As-Sa'di</span>
-            <span class="pill-link"><i class="fas fa-check-circle"></i> Bulughul Maram</span>
-            <span class="pill-link"><i class="fas fa-check-circle"></i> Al-Waraqat (Ushul Fiqh)</span>
-            <span class="pill-link"><i class="fas fa-check-circle"></i> Arba'in Nawawi</span>
-            <span class="pill-link"><i class="fas fa-check-circle"></i> Bidayatul Mujtahid</span>
+          <div class="tip-card"><i class="fas fa-bullseye"></i>
+            <h3>OKR versi Muslim</h3>
+            <p>Objective & Key Results dipadukan dengan doa, evaluasi mingguan, dan target nilai ibadah.</p>
+          </div>
+          <div class="tip-card"><i class="fas fa-handshake"></i>
+            <h3>Networking Berkah</h3>
+            <p>Bangun relasi profesional yang saling mengingatkan dalam kebaikan dan kolaborasi positif.</p>
           </div>
         </div>
 
-        <!-- FOOTER SEDERHANA (nuansa hijau & islami) -->
+        <!-- REKOMENDASI BUKU -->
+        <div class="books-section">
+          <h3 style="font-family: 'Cormorant Garamond'; font-size: 1.5rem; color:#124F5E; display: flex; gap: 0.8rem;">
+            <i class="fas fa-book-open" style="color:#D9A13B;"></i> 5 Buku Wajib Muslim Produktif</h3>
+          <div class="books-list" style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+            <span class="pill-link"><i class="fas fa-check-circle"></i> The 7 Habits of Highly Effective People</span>
+            <span class="pill-link"><i class="fas fa-check-circle"></i> Atomic Habits (Tinjauan Islami)</span>
+            <span class="pill-link"><i class="fas fa-check-circle"></i> La Tahzan – Dr. 'Aidh al-Qarni</span>
+            <span class="pill-link"><i class="fas fa-check-circle"></i> The Productive Muslim (Mohammed Faris)</span>
+            <span class="pill-link"><i class="fas fa-check-circle"></i> Ikutilah Jejakku: Sirah Nabawiyah</span>
+          </div>
+        </div>
+
+        <!-- 30-Day Challenge -->
+        <div class="challenge-section">
+          <h3 style="font-family: 'Cormorant Garamond'; font-size: 1.5rem; color:#176D7A;"><i
+              class="fas fa-calendar-alt" style="color:#D9A13B;"></i> 30-Day Productivity Challenge</h3>
+          <div class="challenge-grid">
+            <div class="challenge-item"><i class="fas fa-check-circle"></i> Hari 1: Niat & Evaluasi Target</div>
+            <div class="challenge-item"><i class="fas fa-check-circle"></i> Hari 5: Rutin Dhuha & Perencanaan</div>
+            <div class="challenge-item"><i class="fas fa-check-circle"></i> Hari 10: Cut Distraction Digital</div>
+            <div class="challenge-item"><i class="fas fa-check-circle"></i> Hari 15: Belajar Skill Baru 30 menit</div>
+            <div class="challenge-item"><i class="fas fa-check-circle"></i> Hari 20: Review Keuangan & Sedekah</div>
+            <div class="challenge-item"><i class="fas fa-check-circle"></i> Hari 30: Evaluasi & Reward positif</div>
+          </div>
+        </div>
+
+        <!-- 4 HABITS MUSLIM PRODUKTIF -->
+        <div class="habits-grid">
+          <div class="habit-card"><i class="fas fa-moon"></i>
+            <h4>Qiyamul Lail</h4>
+            <p>Pemicu keberkahan waktu</p>
+          </div>
+          <div class="habit-card"><i class="fas fa-list-check"></i>
+            <h4>Daily Action Plan</h4>
+            <p>Skala prioritas & review</p>
+          </div>
+          <div class="habit-card"><i class="fas fa-chalkboard"></i>
+            <h4>Shalat Tepat Waktu</h4>
+            <p>Penyangga produktivitas</p>
+          </div>
+          <div class="habit-card"><i class="fas fa-hand-sparkles"></i>
+            <h4>Sedekah Subuh</h4>
+            <p>Magnet rezeki & karir</p>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
         <div class="footer-simple">
-          <i class="fas fa-feather-alt"></i> Ikatlah ilmu dengan tulisan, sebarkan dengan hikmah
-          <span style="margin:0 8px">•</span> <i class="fas fa-hand-sparkles"></i> Majelis ilmu adalah pelita hati
+          <i class="fas fa-briefcase"></i> Bangun legacy positif melalui karirmu, jadilah generasi Rabbani yang
+          profesional <span style="margin:0 8px">•</span> <i class="fas fa-mosque"></i> “Sebaik-baik manusia adalah yang
+          paling bermanfaat”
         </div>
   </div>
 
   <script>
-    // SLIDER HORIZONTAL (geser kiri/kanan)
-    const track = document.getElementById('sliderTrack');
-    const leftBtn = document.getElementById('slideLeftBottom');
-    const rightBtn = document.getElementById('slideRightBottom');
-    if (track && leftBtn && rightBtn) {
-      const slideStep = 380;
-      leftBtn.addEventListener('click', () => { track.scrollBy({ left: -slideStep, behavior: 'smooth' }); });
-      rightBtn.addEventListener('click', () => { track.scrollBy({ left: slideStep, behavior: 'smooth' }); });
-      let isDown = false, startX, scrollLeft;
-      track.addEventListener('mousedown', (e) => { isDown = true; startX = e.pageX - track.offsetLeft; scrollLeft = track.scrollLeft; track.style.cursor = 'grabbing'; });
-      track.addEventListener('mouseleave', () => { isDown = false; track.style.cursor = 'grab'; });
-      track.addEventListener('mouseup', () => { isDown = false; track.style.cursor = 'grab'; });
-      track.addEventListener('mousemove', (e) => { if (!isDown) return; e.preventDefault(); const x = e.pageX - track.offsetLeft; const walk = (x - startX) * 1.2; track.scrollLeft = scrollLeft - walk; });
-      track.style.cursor = 'grab';
-    }
+    (function () {
+      const track = document.getElementById('sliderTrack');
+      const leftBtn = document.getElementById('slideLeftBottom');
+      const rightBtn = document.getElementById('slideRightBottom');
+      if (track && leftBtn && rightBtn) {
+        const slideStep = 370;
+        leftBtn.addEventListener('click', () => { track.scrollBy({ left: -slideStep, behavior: 'smooth' }); });
+        rightBtn.addEventListener('click', () => { track.scrollBy({ left: slideStep, behavior: 'smooth' }); });
+        let isDown = false, startX, scrollLeft;
+        track.addEventListener('mousedown', (e) => { isDown = true; startX = e.pageX - track.offsetLeft; scrollLeft = track.scrollLeft; track.style.cursor = 'grabbing'; });
+        track.addEventListener('mouseleave', () => { isDown = false; track.style.cursor = 'grab'; });
+        track.addEventListener('mouseup', () => { isDown = false; track.style.cursor = 'grab'; });
+        track.addEventListener('mousemove', (e) => { if (!isDown) return; e.preventDefault(); const x = e.pageX - track.offsetLeft; const walk = (x - startX) * 1.2; track.scrollLeft = scrollLeft - walk; });
+        track.style.cursor = 'grab';
+      }
+    })();
   </script>
 </body>
 
 </html>
+
+
