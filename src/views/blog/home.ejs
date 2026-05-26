@@ -759,7 +759,7 @@
                 <span class="category-chip"><i class="fas fa-tag"></i>
                   <%= post.postCategories && post.postCategories.length ? post.postCategories[0].category.name : (post.postTags && post.postTags.length ? post.postTags[0].tag.name : 'Karir') %>
                 </span>
-                <h3 class="card-title"><a href="/posts/<%= post.slug %>">
+                <h3 class="card-title"><a href="/posts/<%= post.slug %>" target="_blank" rel="noopener noreferrer">
                     <%= post.title %>
                   </a></h3>
                 <p class="excerpt-sm">
